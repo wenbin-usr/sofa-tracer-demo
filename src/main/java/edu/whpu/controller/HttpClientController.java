@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 @RestController
 public class HttpClientController {
-    @GetMapping("/demo")
+    @GetMapping("/http-test")
     public String demo() throws IOException {
         PoolingHttpClientConnectionManager connManager = new PoolingHttpClientConnectionManager();
         connManager.setDefaultMaxPerRoute(6);
