@@ -1,4 +1,4 @@
-package edu.whpu;
+package edu.whpu.client;
 
 import com.alipay.common.tracer.core.utils.StringUtils;
 import com.alipay.sofa.tracer.plugins.httpclient.SofaTracerHttpClientBuilder;

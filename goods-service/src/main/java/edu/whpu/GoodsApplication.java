@@ -10,8 +10,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @MapperScan("edu.whpu.mapper")
-public class SofaTracerApplication {
+public class GoodsApplication {
     public static void main( String[] args ) {
-        SpringApplication.run(SofaTracerApplication.class, args);
+        SpringApplication.run(GoodsApplication.class, args);
     }
 }
